@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Walker : MonoBehaviour {
 	public float walkSpeed = 2.0f;
@@ -26,6 +27,12 @@ public class Walker : MonoBehaviour {
 		if (Mathf.Abs (rb2d.velocity.x) > walkSpeed) {
 			rb2d.velocity = new Vector2 (Mathf.Sign(rb2d.velocity.x) * walkSpeed, rb2d.velocity.y);
 		}
+        //load the game over if no more health
+        if (currentHealth <= 0)
+        {
+            SceneManager.LoadScene("GameOver");
+           
+        }
 			
 	}
 
@@ -33,11 +40,11 @@ public class Walker : MonoBehaviour {
 	{
 		if (other.gameObject.CompareTag ("Obstacle")) 
 		{
-			moveForce = 6f;
-		}
+            TakeDamage(3);
+        }
 		if (other.gameObject.CompareTag ("Danger")) 
 		{
-			TakeDamage (1);
+            currentHealth = 0;
 		}
 	}
 
