@@ -31,6 +31,7 @@ public class Walker : MonoBehaviour {
         if (currentHealth <= 0)
         {
             SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("Menu");
            
         }
 			
@@ -55,7 +56,6 @@ public class Walker : MonoBehaviour {
 			moveForce = 1f;
 		}
 	}
-
 	public void TakeDamage(int amount)
 	{
 		currentHealth -= amount;
