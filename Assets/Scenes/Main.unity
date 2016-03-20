@@ -446,6 +446,7 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!82 &293895301
 AudioSource:
   m_ObjectHideFlags: 0
@@ -527,6 +528,10 @@ Transform:
 --- !u!224 &310852785
 RectTransform:
 >>>>>>> parent of 7bd4c28... added scene, with all objects
+=======
+--- !u!224 &310852785
+RectTransform:
+>>>>>>> parent of 7bd4c28... added scene, with all objects
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -550,6 +555,7 @@ GameObject:
 --- !u!60 &801908248
 PolygonCollider2D:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   serializedVersion: 2
   m_Modification:
@@ -1047,6 +1053,10 @@ PolygonCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
 >>>>>>> parent of 7bd4c28... added scene, with all objects
+=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> parent of 7bd4c28... added scene, with all objects
   m_GameObject: {fileID: 801908247}
   m_Enabled: 1
   m_Density: 1
@@ -1070,6 +1080,7 @@ PolygonCollider2D:
     - - {x: 0.15594482, y: 0.1181761}
       - {x: -0.0047950745, y: -0.033037305}
       - {x: -0.003967285, y: -0.1542052}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &801908251 stripped
@@ -1901,6 +1912,9 @@ Prefab:
 =======
 --- !u!1001 &1146331949
 >>>>>>> parent of 7bd4c28... added scene, with all objects
+=======
+--- !u!1001 &1146331949
+>>>>>>> parent of 7bd4c28... added scene, with all objects
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1965,6 +1979,71 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1147910483
 MonoBehaviour:
+<<<<<<< HEAD
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1147910482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1147910484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1147910482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &1147910485
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1147910482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+--- !u!1 &1205689747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1205689751}
+  - 33: {fileID: 1205689750}
+  - 23: {fileID: 1205689749}
+  - 61: {fileID: 1205689748}
+  - 114: {fileID: 1205689752}
+  m_Layer: 0
+  m_Name: DeathTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1205689748
+BoxCollider2D:
+=======
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -2075,10 +2154,61 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1205689751
 Transform:
+>>>>>>> parent of 7bd4c28... added scene, with all objects
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1205689747}
+<<<<<<< HEAD
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+--- !u!23 &1205689749
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1205689747}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1205689750
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1205689747}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1205689751
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1205689747}
+=======
+>>>>>>> parent of 7bd4c28... added scene, with all objects
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 105, y: -47, z: -7.5}
   m_LocalScale: {x: 500, y: 1, z: 1}
@@ -2435,6 +2565,7 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1641031846
 Prefab:
   m_ObjectHideFlags: 0
@@ -2608,6 +2739,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
 >>>>>>> 7e0ff0e6c894e6adf0a40d4a30e837b05746b1d1
+=======
+>>>>>>> parent of 7bd4c28... added scene, with all objects
 =======
 >>>>>>> parent of 7bd4c28... added scene, with all objects
 --- !u!1 &1685900106
