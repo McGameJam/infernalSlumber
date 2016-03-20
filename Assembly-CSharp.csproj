@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\PickUpObject.cs" />
      <Compile Include="Assets\Scripts\SimplePlatformController.cs" />
      <Compile Include="Assets\Scripts\Walker.cs" />
+     <Compile Include="Assets\Scripts\menuScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
